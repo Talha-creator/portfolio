@@ -1,0 +1,14 @@
+<div class="feature-root flex align-center justify-center">
+    <div class="content-wrapper">
+        <h1><span>Cartzilla Feature </span>Highlights</h1>
+
+    <div class="flex align-center  features-wrapper">
+        <div *ngFor="let feature of featuresList" class="feature-styling flex flex-col justify-center align-center">
+            <img [src]="feature.img">
+            <h3>{{feature.label}}</h3>
+            <p>{{feature.description}}</p>
+        </div>
+    </div>
+    <h5>And much more...</h5>
+    </div>
+</div>

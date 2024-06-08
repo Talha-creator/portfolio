@@ -1,0 +1,95 @@
+*{
+    font-family:nunito;
+}
+.ourteam-root{
+    // background: radial-gradient( #308282,#022425);
+    width: 90%;
+    margin: auto auto;
+    padding:2rem;
+    .card-wrapper{
+        width: 100%;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1{
+            color:white;
+            font-size: 40px;
+            text-align: center;
+        }
+        p{
+                width: 100%;
+                text-align: center;
+                color:white;
+           
+                font-size: 18px;
+                font-weight: 500;
+            
+        }
+        .team-cards-wrapper{
+                width: 100%;
+                margin-top: 5rem;
+                .card-parent{
+                    width: 28%;
+                    .card{
+                        position: relative;
+                        height: 30rem;
+                        width: 100%;
+                        border-radius: 10px;
+                        cursor: pointer;
+                        .image-wrapper{
+                            img{
+                                border-radius: 10px;
+                                width: 100%;
+                                height: 30rem;
+                                border:2px solid var(--fitness-secondary-color);
+                               
+                            }
+                        transition: .5s;
+                        }
+                        .details{
+                            display: none;
+                        }
+                        
+                        &:hover{
+                            transition: .5s;
+                           
+                            .image-wrapper{
+                             
+                                display: none;
+                            }
+                            .details{
+                                transition: .5s;
+                                    padding:1rem;
+                                    border-radius: 10px;
+                                display: flex;
+                                flex-direction: column;
+                                text-align: center;
+                                border:2px solid var(--fitness-secondary-color);
+                                height: 30rem;
+                                width: 100%;
+                                position: absolute;
+                                h6{
+                                    font-size: 16px;
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+                .info-wrapper{
+                    margin-top:1rem;
+                    label{
+                        color:white;
+                        font-size: 16px;
+                    }
+                    h6{
+                        color:white;
+                        font-size: 18px; 
+                    }
+                }
+           
+        }
+    }
+}

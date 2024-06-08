@@ -1,0 +1,53 @@
+*{
+    font-family :sohne;
+}
+
+.feature-root{
+    padding:2rem;
+    .content-wrapper{
+        width: 90%;
+    }
+}
+h1{
+    padding: 3rem 0;
+    color: #000;
+    opacity: .7;
+    text-align: center;
+    font-family: sohne;
+    font-weight: 100;
+    
+    span{
+        font-weight: 700;
+    }
+}
+.features-wrapper{
+    flex-wrap: wrap;
+    width: 100%;
+
+    .feature-styling{
+        height:20rem;
+        margin-left:2.5rem;
+        width: 20%;
+            img{
+                height:100px;
+                width: 100px;
+            }
+            h3{
+                
+                font-size:16px; opacity: .7;
+                text-align: center;
+            }
+            p{
+                margin-top:1rem;
+                text-align: center;
+                font-size:14px;
+                opacity: .5;
+            }
+    }
+}
+h5{
+    font-weight: 700;
+    font-size:18px;
+    padding:2rem 0 ;
+    text-align: center;
+}

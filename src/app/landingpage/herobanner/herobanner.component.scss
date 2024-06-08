@@ -1,0 +1,75 @@
+.pi{
+    font-family: primeIcons !important;
+}
+
+.herobanner-root{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../../assets/images/intro-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  
+    h1{
+        align-items: center;
+        color:#fff;
+       text-align: center;
+       margin-bottom: 1rem;
+       
+    }
+    span{
+        font-family:  sohne  !important;
+         font-weight: 100 !important;
+    }
+    .bold{
+        font-family: sohneBold !important;
+    }
+    .services-wrapper{
+        color:#FFF;
+        flex-wrap: wrap;
+        
+       
+        h2{
+       
+            padding:0.2rem 1rem;
+            font-family:  sohneLight  !important;
+            font-size:16px;
+        }
+        .light{
+            opacity:.7 !important;
+            }
+            .bold{
+                opacity:1;
+                font-size:22px;
+            }
+    }
+    .button-wrapper
+    {
+        margin-top:2rem;
+        
+        button{
+            font-size:18px;
+            background-color: var(--color-primary-light);
+            padding:1rem 2rem ;
+            border-radius: 10px;
+            border:none;
+            color:#FFF;
+            transition: .3s;
+            &:hover{
+                transition: .3s;
+                background-color: var(--color-primary);
+               
+            }
+            &:focus{
+                outline: none;
+            }
+
+            .pi{
+                margin-left:.5rem;
+            }
+        }
+    }
+   
+}

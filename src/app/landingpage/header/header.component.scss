@@ -1,0 +1,42 @@
+*{
+    font-family :sohne;
+}
+
+.pi{
+    font-family: primeIcons !important;
+}
+.header-root{
+    box-shadow: 0 0.125rem 0.3rem -0.0625rem rgba(0,0,0,.03), 0 0.275rem 0.75rem -0.0625rem rgba(0,0,0,.06);
+    width: 100%;
+    padding:1rem;
+    .header-parent{
+        width: 90%;
+        .logo{
+            height: 35px;
+        }
+
+        .menu-wrapper{
+            margin-left:3rem;
+            label{
+                font-size:15px;
+                opacity: .5;
+                font-weight: 600;
+                cursor: pointer;
+                padding:.5rem 1rem;
+                &:hover{
+                    opacity: 1;
+                    color:var(--color-primary)
+                }
+            }
+        }
+      
+        button{   
+            font-size: 14px !important;  
+            .pi{
+                
+                margin-right: .5rem;
+            }
+        }
+    }
+
+}

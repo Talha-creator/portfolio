@@ -1,0 +1,19 @@
+<div class="solution-page-root flex align-center justify-center">
+    <div class="solution-page-parent flex  justify-between">
+
+        <div class="services-content">
+            <h1>Complete <span>E-Commerce</span></h1>
+            <h1><span>Front-End</span> Solutions</h1>
+
+            <p>All you need for your next e-commerce project</p>
+
+            <div class="services-list-wrappe">
+                <div *ngFor="let service of servicesList" class="row-item">
+                    <i class="pi pi-check-circle"></i> <label>{{service}}</label>
+                </div>
+            </div>
+        </div>
+
+        <img src="../../../assets/images/pages-showcase.jpg">
+    </div>
+</div>

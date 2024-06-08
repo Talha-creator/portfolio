@@ -1,1 +1,79 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~quill/dist/quill.core.css';
+@import '~quill/dist/quill.snow.css';
+@import '~quill/dist/quill.bubble.css';
+@font-face {
+    font-family: sohne;
+    src: url('./assets/Sohne-Font-Family/Söhne-Font-Family-Collection/Test Söhne Breit/TestSöhneBreit-Buch.otf');
+  }
+
+  @font-face {
+    font-family: protest;
+    src: url('./assets/protest_riot/ProtestRiot/otf/ProtestRiot-Regular.otf');
+  }
+  @font-face {
+    font-family: nunito;
+    src: url('./assets/Nunito (1)/Nunito-VariableFont_wght.ttf');
+  }
+  @font-face {
+    font-family: sohneBold;
+    src: url('./assets/Sohne-Font-Family/Söhne-Font-Family-Collection/Test Söhne Breit/TestSöhneBreit-Dreiviertelfett.otf');
+  }
+  @font-face {
+    font-family: sohneLight;
+    src: url('./assets/Sohne-Font-Family/Söhne-Font-Family-Collection/Test Söhne Breit/TestSöhneBreit-Extraleicht.otf');
+  }
+*{
+    margin:0 ;
+}
+
+:root{
+    --color-primary-light:#fe696a;
+    --color-primary:#fe4042;
+
+    --fitness-primary-color:#011b1c;
+    --fitness-secondary-color:#1d9797;
+}
+//utility classes
+
+.flex{
+    display: flex;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.align-center{
+    align-items: center;
+}
+.align-start{
+    align-items: start;
+}
+.align-end{
+    align-items: end;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.pointer{
+    cursor: pointer;
+}
+
+.buttonStyling{
+    background-color: #fe696a;
+    padding:1rem 2rem;
+    border:none;
+    color:white;
+    font-size:16px;
+    border-radius: 5px;
+    :hover{
+        background-color:#fe4042;
+    }
+ 
+}

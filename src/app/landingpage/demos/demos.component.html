@@ -1,0 +1,33 @@
+<div class="demos-page-root flex-col align-center justify-center">
+
+        <h1>
+            Explore <span> Cartzilla Demos</span>
+        </h1>
+        <p>Explore the collection of carefully built homepages. More to come soon!</p>
+
+
+        <div class="demo-cards-wrapper flex align-center justify-between ">
+
+            <div class="card-styling pointer" *ngFor="let item of demoItems">
+                    <div class="video-content">
+
+                   <div class="image-wrapper">
+                    <img [src]="item.img">
+                   </div>
+                    <div class="overlay flex align-center justify-center">
+                        <div class="eye-icon-wrapper">
+                            <i class="pi pi-eye"></i>
+                        </div>
+                    </div>
+
+                    
+                </div>
+                <h2>
+                    {{item.label}}
+                </h2>
+                
+            </div>
+            
+            
+        </div>
+</div>

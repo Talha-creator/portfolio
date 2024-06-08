@@ -1,0 +1,45 @@
+
+.solution-page-root{
+    background: rgba(55, 63, 80);
+    padding:3rem 5rem;
+    img{
+        width: 45vw;
+    }
+    .solution-page-parent{
+        width: 90%;
+    }
+}
+.services-content{
+    margin-top: 5rem;;
+    h1{
+        color: #FFF;
+        font-family: sohne;
+        font-weight: 100;
+        span{
+            font-weight: 700;
+        }
+    }
+
+    p{
+        margin-top:1rem;
+        color: #fff;
+        opacity: .7;
+        font-size: 14px;
+    }
+    .services-list-wrappe{
+        margin-top: 2rem;
+    }
+    .row-item{
+        margin-top:.7rem !important;
+        .pi{
+            color:rgb(66, 214, 151);
+            margin-right:.5rem;
+        }
+        label{
+          
+            font-weight: 300 !important;
+            color:#fff;
+            font-size: 16px;
+        }
+    }
+}
